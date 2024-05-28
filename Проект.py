@@ -32,7 +32,7 @@ if original_word in fixed_word_list:
             for j in i:
                 mid_word += j                            #mid_word - промежуточное слово
             final_word = mid_word[:k]                    #final_word - окончательное слово
-            if final_word in final_word_list or final_word == primal_word:
+            if final_word in final_word_list or final_word == original_word:
                 continue
             else:
                 if final_word in fixed_word_list:
