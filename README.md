@@ -1,2 +1,3 @@
 # Words-in-words-rus
-This program creates all possible Russian words from the letters of a single word by using dictionary for 34K+ words
+Эта программа создаёт все возможные русские слова из букв одного слова, используя словарь на 34 тысячи слов.
+Максим использовал permutations и работал со строчками 5-7, 25-34. Арсений работал с модулем re, строчками 4, 7, 12-19, 35-46 и github'ом.
