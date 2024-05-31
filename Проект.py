@@ -28,7 +28,7 @@ if original_word in fixed_word_list:
         mid_word = ""
         if i[0] == "ь" or i[0] == "ъ" or i[0] == "ы":
             continue
-        for k in range(2, len(primal_word) + 1):
+        for k in range(2, len(original_word) + 1):
             for j in i:
                 mid_word += j                            #mid_word - промежуточное слово
             final_word = mid_word[:k]                    #final_word - окончательное слово
